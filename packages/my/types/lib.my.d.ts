@@ -10257,6 +10257,11 @@ declare namespace my {
      */
     content?: string;
     /**
+     * 是否显示透明蒙层，防止触摸穿透
+     * @default true
+     */
+    mask?: Boolean;
+    /**
      * 延迟显示，单位为毫秒（ms）
      * @description 如果在此时间之前调用了 [my.hideLoading]() 则不会显示。
      * @default 0
