@@ -1074,9 +1074,13 @@ declare namespace my {
       | Array<`${EChooseImageSourceType}`>
       | `${EChooseImageSourceType}`;
     /**
-     * 选图过程中拍摄的照片是否落相册（默认不落相册）
+     * 是否默认使用前置摄像头（默认`false`）
      */
     storeToAlbum?: boolean;
+    /**
+     * 选图过程中拍摄的照片是否落相册（默认不落相册）
+     */
+    useFrontCamera?: boolean;
     /**
      * 接口调用成功的回调函数
      */
